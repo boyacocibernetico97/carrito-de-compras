@@ -1,0 +1,155 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+/* Estilos específicos para el encabezado */
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Estilos específicos para los artículos y secciones */
+article {
+    margin-bottom: 40px;
+}
+
+article h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+/* Estilos específicos para el pie de página */
+footer p {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+.gallery1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.image {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    position: relative;
+}
+
+#current-image {
+    max-width: 80%;
+    max-height: 80vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.prev-btn {
+    left: 20px;
+}
+
+.next-btn {
+    right: 20px;
+}
+
+.box {
+    position: relative;
+    background-color: lightgoldenrodyellow;
+    color: #999;
+  
+    
+    width: 250px;
+    height: 250px;
+    
+  
+    
+    border: 10px solid darkorchid; 
+    border-top: 20px dashed lightgreen;
+    
+    border-width: 10px;
+    border-style: groove;
+    border-color: lightseagreen;
+  
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: lightseagreen;
+    
+    
+    padding: 20px;
+    padding: 10px 40px; 
+    padding: 10px 40px 20px; 
+    padding: 10px 40px 20px 30px; 
+  
+
+    margin: 20px;
+    margin: 10px 40px; 
+    margin: 10px 40px 20px; 
+    margin: 10px 40px 20px 30px; 
+  
+
+  
+      border-radius: 10px;
+      border-radius: 10px 20px;
+      border-radius: 10px 10px 10px 100px;
+    
+      outline: 10px dashed lightcoral;
+      outline-offset: -20px;
+    
+      box-shadow: 5px 5px 20px 5px #06f5f54a;
+  }
+  
+  .bs-cb {
+    box-sizing: content-box;
+  }
+  
+  .bs-bb {
+
+    box-sizing: border-box;
+
+  }
+
+  span {
+    
+  }
